@@ -1,4 +1,5 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose'); 
+
 
 const magazineSchema = new mongoose.Schema({
     title: { type: String },
